@@ -1,0 +1,14 @@
+.container{
+    -moz-column-width:250px ;
+    column-width: 250px;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+}
+.container div{
+    width: 250px;
+    margin: auto auto;
+}
+.container p{
+    text-align: center;
+
+}
