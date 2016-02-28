@@ -1,14 +1,126 @@
-.container{
-    -moz-column-width:250px ;
-    column-width: 250px;
-    -moz-column-gap: 5px;
-    column-gap: 5px;
-}
-.container div{
-    width: 250px;
-    margin: auto auto;
-}
-.container p{
-    text-align: center;
 
+body{
+    background-color: floralwhite;
 }
+.container{
+    width: 960px;
+    height: 450px;
+    margin: 60px auto;
+    position: relative;
+}
+.container :hover{
+    box-shadow: 15px 15px 20px rgba(50,50,50,1);
+    transform: rotate(0deg) scale(1.8);
+    position: relative;
+    z-index: 2;
+}
+.pic {
+    width: 150px;
+}
+.container img{
+    padding: 5px 6px;
+    background-color: white;
+    border: 2px solid gainsboro;
+    box-shadow: 2px 2px 1px     rgba(50,50,50,0.5);
+    position: absolute;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+}
+.pic1{
+    top: 0;
+    left: 230px;
+    transform:rotate(41deg);
+    -moz-transform: rotate(41deg);
+}
+.pic2 {
+    top: 0;
+    left: 100px;
+    transform: rotate(-12deg);
+}.pic3 {
+     top: 100px;
+     left: 400px;
+     transform: rotate(-3deg);
+ }.pic4 {
+      top: 350px ;
+      left: 600px;
+      transform: rotate(23deg);
+  }.pic5 {
+       top: 390px ;
+       left: 500px;
+       transform: rotate(2deg);
+   }.pic6 {
+        top: 0;
+        left: 300px;
+        transform: rotate(12deg);
+    }.pic7 {
+         top: 0;
+         left: 200px;
+         transform: rotate(-12deg);
+     }.pic8 {
+          top: 0;
+          left: 800px;
+          transform: rotate(-40deg);
+      }.pic9 {
+           top: 299px;
+           left: 600px;
+           transform: rotate(79deg);
+       }.pic10 {
+            top: 499px;
+            left: 300px;
+            transform: rotate(20deg);
+        }.pic11 {
+             top: 35px;
+             left: 200px;
+             transform: rotate(12deg);
+         }.pic12 {
+              top: 300px;
+              left: 100px;
+              transform: rotate(19deg);
+          }.pic13{
+               top: 299px;
+               left: 200px;
+               transform: rotate(29deg);
+           }.pic14 {
+                top: 75px;
+                left: 100px;
+                transform: rotate(39deg);
+            }.pic15 {
+                 top:234px;
+                 left: 800px;
+                 transform: rotate(49deg);
+             }.pic16 {
+                  top: 77px;
+                  left: 610px;
+                  transform: rotate(59deg);
+              }.pic17 {
+                   top: 88px;
+                   left: 700px;
+                   transform: rotate(69deg);
+               }.pic18 {
+                    top: 99px;
+                    left: 300px;
+                    transform: rotate(79deg);
+                }.pic19 {
+                     top: 345px;
+                     left:400px;
+                     transform: rotate(19deg);
+                 }.pic20{
+                      top: 78px;
+                      left:500px;
+                      transform: rotate(9deg);
+                  }.pic21 {
+                       top: 385px;
+                       left: 800px;
+                       transform: rotate(3deg);
+                   }.pic22 {
+                        top: 479px;
+                        left:600px;
+                        transform: rotate(39deg);
+                    }.pic23{
+                         top: 43px;
+                         left: 700px;
+                         transform: rotate(49deg);
+                     }.pic24 {
+                          top:395px;
+                          left: 500px;
+                          transform: rotate(59deg);
